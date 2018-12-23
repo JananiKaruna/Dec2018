@@ -19,8 +19,7 @@ public class ContainsTextPractice {
 		/*WebElement txtGreens=driver.findElement(By.xpath("//h2[text()=\"Greens Technologys Overall Reviews\"]"));
 		System.out.println("word loacted ");
 	    System.out.print(txtGreens.getText())*/;
-	    
-	    Thread.sleep(3000);
+	      Thread.sleep(3000);
 	  /*  WebElement closebtn=driver.findElement(By.xpath("//button[@type='button']"));
 	    closebtn.click();
 	    WebElement para3 = driver.findElement(By.xpath("//strong[text()=\"Selenium with Appium course syllabus\"]"));
