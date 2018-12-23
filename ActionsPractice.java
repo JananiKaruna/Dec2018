@@ -106,12 +106,10 @@ public class ActionsPractice{
 		WebElement pass =driver.findElement(By.id("ap_password"));
 		Thread.sleep(1000);
 		acc3.contextClick(pass);
-		
 			acc3.keyDown(pass,Keys.DOWN).keyUp(pass, Keys.DOWN).perform();
 			acc3.keyDown(pass,Keys.DOWN).keyUp(pass, Keys.DOWN).perform();
 			acc3.keyDown(pass,Keys.ENTER).keyUp(pass, Keys.ENTER).perform();
-
-			WebElement loginbtn =driver.findElement(By.id("signInSubmit"));
+            WebElement loginbtn =driver.findElement(By.id("signInSubmit"));
 			loginbtn.click();
 			}
   }
